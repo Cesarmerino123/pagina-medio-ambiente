@@ -1,0 +1,21 @@
+
+body{
+	margin:0;
+}
+
+.cuerpo{
+	width:48px;
+	position:fixed;
+	z-index:900;
+	top:40%;
+	left:-5px;
+}
+
+.icon{
+	transition:0.4s;
+	width:45px;
+}
+
+.icon:hover{
+	transform:translateX(5px);
+}
